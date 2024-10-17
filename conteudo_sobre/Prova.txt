@@ -1,0 +1,30 @@
+1. Home
+    Cabeçalho: Mesmo layout da página "Sobre".
+    Imagem Principal: Imagem atraente de um automóvel clássico ou icônico.
+    Conteúdo:
+    Título: "Bem-vindo ao Mundo dos Automóveis".
+    Breve descrição: Uma introdução ao tema do site, abordando a paixão por automóveis e a importância de sua história.
+    Links para as páginas "Sobre", "Contato" e "Conteúdo Adicional".
+    Rodapé: Mesmo do "Sobre".
+3. Contato
+    Cabeçalho: Mesmo layout da página "Sobre".
+    Imagem Principal: Uma imagem relacionada à comunicação (como um telefone ou um email).
+    Conteúdo:
+    Título: "Entre em Contato Conosco".
+    Breve descrição: Convite para que os visitantes entrem em contato, compartilhem suas opiniões ou façam perguntas.
+    Formulário:
+    Campos: Nome, E-mail, Mensagem.
+    Botão de envio.
+    Informações adicionais: Telefone e, se necessário, endereço.
+    Rodapé: Mesmo do "Sobre".
+4. Conteúdo Adicional
+    Cabeçalho: Mesmo layout da página "Sobre".
+    Imagem Principal: Imagem ilustrativa de um evento automotivo ou uma exposição.
+    Conteúdo:
+    Título: "Explorando Mais Sobre Automóveis".
+    Breve descrição: O que os visitantes podem esperar encontrar nesta seção, como artigos, dicas e recursos.
+    Artigos ou seções:
+    Artigos sobre inovação em tecnologia automotiva.
+    Dicas de manutenção de veículos clássicos.
+    Entrevistas com especialistas ou apaixonados por carros.
+    Rodapé: Mesmo do "Sobre".
