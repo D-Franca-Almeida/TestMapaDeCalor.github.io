@@ -38,7 +38,8 @@
     </header>
 
     <nav>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <!-- 3000 milissegundos para cada transição -->
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -65,6 +66,7 @@
             </a>
         </div>
     </nav>
+
 
     <h1>Nossa Missão</h1>
     <hr>
@@ -198,3 +200,34 @@
 </body>
 
 </html>
+<script>
+    // Definir a versão do Teste A/B (você pode modificar essa lógica com base na implementação real de teste A/B)
+        var testVersion = Math.random() < 0.5 ? 'A' : 'B'; // 50% de chance para cada versão
+
+        var carousel = document.querySelector('#carouselExampleIndicators');
+
+        // Aplique as versões de intervalo
+        if (testVersion === 'B') {
+            carousel.setAttribute('data-interval', '2000');  // Aumenta a velocidade para 2 segundos
+            console.log('Testando a versão B: Velocidade aumentada.');
+        } else {
+            carousel.setAttribute('data-interval', '5000');  // Velocidade padrão (5 segundos)
+            console.log('Testando a versão A: Velocidade padrão.');
+        }
+        // Aplique o Teste A/B de maneira dinâmica
+            var testVersion = Math.random() < 0.5 ? 'A' : 'B'; // 50% de chance para cada versão
+
+            var carousel = document.querySelector('#carouselExampleIndicators');
+
+            // Aplique as versões de intervalo
+            if (testVersion === 'B') {
+                carousel.setAttribute('data-interval', '2000');  // Aumenta a velocidade para 2 segundos
+                console.log('Testando a versão B: Velocidade aumentada.');
+            } else {
+                carousel.setAttribute('data-interval', '5000');  // Velocidade padrão (5 segundos)
+                console.log('Testando a versão A: Velocidade padrão.');
+            }
+
+
+
+</script>
