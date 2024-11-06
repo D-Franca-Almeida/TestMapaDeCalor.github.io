@@ -16,8 +16,10 @@
 </head>
 <body >
     <div class="container" >
-        <div class="jumbotron">
-            <h1>Mundo dos Carros</h1>
+        <div class="logo-container">
+            <a class="nav-link" href="../index.html"><img src="../img/logo_mundo_dos_carros.png" alt="Logo Mundo dos Carros"
+                    class="logo"></a>
+            <h1 class="logo-text">Mundo dos Carros</h1>
         </div>
 
         <header>
@@ -47,38 +49,54 @@
             <p>Buscando ofertas especiais ou quer nos dar algum feedback?</p>
             <p>Realize o cadastro e venha acelerar!</p>
             <form action="" method="post">
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" maxlength="50">
-
-                <label for="telefone">Telefone:</label>
-                <input type="text" name="telefone" id="telefone" placeholder="Telefone" maxlength="50">
-
-                <label for="endereco">Endereço:</label>
-                <input type="text" name="endereco" id="endereco" placeholder="Endereço" maxlength="50">
-
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="Email" maxlength="50">
-
-                <label for="senha">Senha:</label>
-                <input type="password" name="senha" id="senha" placeholder="Senha" maxlength="10">
-
-                <label for="senha2">Confirme a Senha:</label>
-                <input type="password" name="senha2" id="senha2" placeholder="Confirmação" maxlength="10">
-
-                <label for="nascimento">Nascimento:</label>
-                <input type="date" name="nascimento" id="nascimento">
-
-                <label for="regiao">Região:</label>
-                <select name="regiao" id="regiao">
-                    <option value="">Escolha uma região</option>
-                    <option value="Norte">Norte</option>
-                    <option value="Sul">Sul</option>
-                    <option value="Leste">Leste</option>
-                    <option value="Oeste">Oeste</option>
-                </select>
-
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome" maxlength="50">
+                </div>
+            
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" name="telefone" id="telefone" class="form-control" placeholder="Telefone" maxlength="50">
+                </div>
+            
+                <div class="form-group">
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" name="endereco" id="endereco" class="form-control" placeholder="Endereço" maxlength="50">
+                </div>
+            
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Email" maxlength="50">
+                </div>
+            
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" class="form-control" placeholder="Senha" maxlength="10">
+                </div>
+            
+                <div class="form-group">
+                    <label for="senha2">Confirme a Senha:</label>
+                    <input type="password" name="senha2" id="senha2" class="form-control" placeholder="Confirmação" maxlength="10">
+                </div>
+            
+                <div class="form-group">
+                    <label for="nascimento">Nascimento:</label>
+                    <input type="date" name="nascimento" id="nascimento" class="form-control">
+                </div>
+            
+                <div class="form-group">
+                    <label for="regiao">Região:</label>
+                    <select name="regiao" id="regiao" class="form-control">
+                        <option value="">Escolha uma região</option>
+                        <option value="Norte">Norte</option>
+                        <option value="Sul">Sul</option>
+                        <option value="Leste">Leste</option>
+                        <option value="Oeste">Oeste</option>
+                    </select>
+                </div>
+            
                 <p>Gênero:</p>
-                <div class="genero-options">
+                <div class="form-group">
                     <label>
                         <input type="radio" name="genero" value="Masculino"> Masculino
                     </label>
@@ -89,9 +107,10 @@
                         <input type="radio" name="genero" value="Outro"> Outro
                     </label>
                 </div>
-
-                <button type="submit">Enviar</button>
+            
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
+
 
             <nav>
                 <p>Entre em contato conosco e receba ofertas especiais imperdíveis!</p>

@@ -60,10 +60,14 @@ body{
 }
 
 .carousel-inner img {
-    width: 100%;
-    height: 300px; /* Ajuste para a altura desejada */
+    width: 100% !important;
+        height: 300px !important;
+        /* Altura fixa */
+        object-fit: cover !important;
+        border-radius: 15px !important;
+   
     object-fit: cover;
-    border-radius: 15px;
+
 }
 
 .evento{
@@ -106,4 +110,31 @@ nav ul {
     display: flex;
     justify-content: center;
     background-color: #ffffff;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 300px;
+    /* Defina a altura que deseja */
+    object-fit: cover;
+    /* Ajusta a imagem para cobrir toda a área do carrossel */
+    border-radius: 15px;
+}
+/* Estilo para o cabeçalho com logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.logo-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #d32f2f;
+    /* Cor do texto do logo */
+    margin: 0;
 }
